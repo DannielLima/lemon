@@ -28,6 +28,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" href="lemon.png" sizes="32x32" />
       </head>
       <body className={`${geistSans.variable} antialiased`}>
         {children}
